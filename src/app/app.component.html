@@ -108,7 +108,9 @@
         </label>
       </div>
       
-      <button class="w-100 btn btn-lg btn-primary" routerLink="/home.component" routerLinkActive="active" type="submit">Sign in</button>
+      <form [formGroup]="planForm">
+      <button (click)="submit()"></button>
+     </form>
       
     </form>
  
