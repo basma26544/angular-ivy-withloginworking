@@ -8,6 +8,3 @@ import { HomeComponent } from '/home.component';
 })
 export class AppComponent  {
 }
-onsubmit(){
-  this.router.navigate(['/home.component']) //your router URL need to pass it here
-}
