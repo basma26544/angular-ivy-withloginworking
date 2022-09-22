@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+ul.nav {
+  height:100vh;
+}
+body {
+  margin:0;
+  padding:0;
+}
